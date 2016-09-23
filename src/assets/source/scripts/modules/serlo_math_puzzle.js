@@ -22,7 +22,7 @@ define(['jquery', 'd3', 'math_puzzle_touchop'], function ($, d3, touchop) {
         // status image
         emog = d3.select(parent)
             .append('div')
-            .attr('class', 'status');
+            .attr('class', 'status fa fa-arrows-alt');
 
         // svg canvas
         svg = d3.select(parent)
